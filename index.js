@@ -122,7 +122,7 @@ function getStatusDescriptiveText(color) {
   return color == "nodata"
     ? "Aucunes donn\u00e9es disponibles: Le bilan de sant\u00e9 n'a pas \u00e9t\u00e9 effectu\u00e9."
     : color == "success"
-    ? "Aucun temps d'arr\u00eat n'a \u00e9t\u00e9 enregistr\u00e9 ce jour-l\u00e0."
+    ? "Aucun down n'a \u00e9t\u00e9 enregistr\u00e9 ce jour-l\u00e0."
     : color == "failure"
     ? "Principales pannes enregistr\u00e9es ce jour-l\u00e0."
     : color == "partial"
