@@ -205,7 +205,7 @@ function splitRowsByDate(rows) {
     resultArray.push(result);
   }
 
-  const upTime = count ? ((sum / count) * 100).toFixed(10) + "%" : "--%";
+  const upTime = count ? ((sum / count) * 100).toFixed(2) + "%" : "--%";
   dateValues.upTime = upTime;
   return dateValues;
 }
